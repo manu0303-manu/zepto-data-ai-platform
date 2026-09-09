@@ -1,0 +1,68 @@
+==============================
+PANDAS READ_SQL RESULTS
+==============================
+
+QUERY 1: Books with rating >= 4
+--------------------------------
+                                                                                                                                                 title  price_gbp  rating
+                                                                                                                 Sapiens: A Brief History of Humankind      54.23       5
+                                                                                                                                           Set Me Free      17.46       5
+                                                                                               Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)      52.29       5
+                                                                                                                             Rip it Up and Start Again      35.02       5
+                                                                                                                            Chase Me (Paris Nights #2)      25.27       5
+                                                                                                                                            Black Dust      34.53       5
+                                                                                               Worlds Elsewhere: Journeys Around Shakespeareâs Globe      40.30       5
+                                                                                            The Four Agreements: A Practical Guide to Personal Freedom      17.66       5
+                                                                                                                                     The Elephant Tree      23.82       5
+                                                                                                                                        Sophie's World      15.94       5
+                                                                                                                           Private Paris (Private #10)      47.61       5
+                                                                                    #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.      23.11       5
+                                                                                                                          We Love You, Charlie Freeman      50.27       5
+                                                                                                                                                Thirst      17.27       5
+                                                                    The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer      20.59       5
+                                                                                   The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution      32.24       5
+                                                                     Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)      13.61       5
+                                                                                                      Princess Between Worlds (Wide-Awake Princess #5)      13.34       5
+                                                                                                                                                  Join      35.67       5
+                                                                                                                                         Sharp Objects      47.82       4
+                                                                                                    The Dirty Little Secrets of Getting Your Dream Job      33.34       4
+                                                        The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics      22.60       4
+                                                                                                                                 Shakespeare's Sonnets      20.66       4
+                                                                                                                                        Wall and Piece      44.18       4
+                                                                                                                                   Behind Closed Doors      52.22       4
+                                                                                                               Untitled Collection: Sabbath Poems 2014      14.27       4
+                                             Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness      44.18       4
+                                                                                                                                       This One Summer      19.49       4
+                                                                                                                                   The Past Never Ends      56.50       4
+                                                                                                              The Nameless City (The Nameless City #1)      38.16       4
+                                                                                             The Most Perfect Thing: Inside (and Outside) a Bird's Egg      42.96       4
+The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy      23.89       4
+                                                                                                          The Death of Humanity: and the Case for Life      58.11       4
+                                                                        Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up      41.83       4
+                                                                                                Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)      15.44       4
+                                                                   Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed      14.02       4
+                                                                                                             In the Country We Love: My Family Divided      22.00       4
+
+QUERY 2: Books + Categories JOIN
+---------------------------------
+                                                                                                                          title  price_gbp  price_inr  rating  in_stock  category_name
+                                                                                   The Death of Humanity: and the Case for Life      58.11    6130.60       4         1     Philosophy
+                                                                                                 Slow States of Collapse: Poems      57.31    6046.20       3         1         Poetry
+                                             Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991      57.25    6039.88       3         1          Music
+                                                                                                            The Past Never Ends      56.50    5960.75       4         1        Mystery
+The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!      56.41    5951.25       1         1 Food and Drink
+                                                                                                              Masks and Shadows      56.40    5950.20       2         1        Fantasy
+                                                                                                The Secret of Dreadwillow Carse      56.13    5921.72       1         1      Childrens
+                                                                 The Electric Pencil: Drawings from Inside State Hospital No. 3      56.06    5914.33       1         1     Nonfiction
+                                                                                                  Birdsong: A Story in Pictures      54.64    5764.52       3         1      Childrens
+                                                                                          Sapiens: A Brief History of Humankind      54.23    5721.26       5         1        History
+
+==============================
+DATA TYPES
+==============================
+title                str
+price_gbp        float64
+price_inr        float64
+rating             int64
+in_stock           int64
+category_name        str
