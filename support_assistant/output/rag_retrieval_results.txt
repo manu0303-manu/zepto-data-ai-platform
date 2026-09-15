@@ -1,0 +1,88 @@
+======================================================================
+User question: How do I cancel my order?
+----------------------------------------------------------------------
+Rank: 1
+FAQ: How can I cancel my order?
+Category: Orders
+Similarity: 0.9940
+Answer: You can cancel your order before it is dispatched from the order section.
+----------------------------------------------------------------------
+Rank: 2
+FAQ: How can I request a refund?
+Category: Refunds
+Similarity: 0.7597
+Answer: Open the order details and select the refund option if the order is eligible for a refund.
+----------------------------------------------------------------------
+Rank: 3
+FAQ: What if my order is delayed?
+Category: Delivery
+Similarity: 0.7552
+Answer: If your order is delayed, please check the latest tracking status and contact support if the delay continues.
+----------------------------------------------------------------------
+
+======================================================================
+User question: Where can I track my delivery?
+----------------------------------------------------------------------
+Rank: 1
+FAQ: How can I track my order?
+Category: Orders
+Similarity: 0.8958
+Answer: Open My Orders and select the order to view its current delivery status.
+----------------------------------------------------------------------
+Rank: 2
+FAQ: Can I change my delivery address?
+Category: Delivery
+Similarity: 0.7618
+Answer: Address changes may be possible before dispatch. Open the order details and check the available options.
+----------------------------------------------------------------------
+Rank: 3
+FAQ: What if my order is delayed?
+Category: Delivery
+Similarity: 0.6877
+Answer: If your order is delayed, please check the latest tracking status and contact support if the delay continues.
+----------------------------------------------------------------------
+
+======================================================================
+User question: I need to get my money back
+----------------------------------------------------------------------
+Rank: 1
+FAQ: How can I request a refund?
+Category: Refunds
+Similarity: 0.8403
+Answer: Open the order details and select the refund option if the order is eligible for a refund.
+----------------------------------------------------------------------
+Rank: 2
+FAQ: How long does a refund take?
+Category: Refunds
+Similarity: 0.7514
+Answer: Eligible refunds are normally processed according to the payment method and may take a few business days.
+----------------------------------------------------------------------
+Rank: 3
+FAQ: What should I do if my payment failed?
+Category: Payments
+Similarity: 0.7456
+Answer: Check your payment details and try again. If the amount was deducted, contact support with the transaction details.
+----------------------------------------------------------------------
+
+======================================================================
+User question: My payment did not work
+----------------------------------------------------------------------
+Rank: 1
+FAQ: What should I do if my payment failed?
+Category: Payments
+Similarity: 0.8808
+Answer: Check your payment details and try again. If the amount was deducted, contact support with the transaction details.
+----------------------------------------------------------------------
+Rank: 2
+FAQ: What payment methods are supported?
+Category: Payments
+Similarity: 0.7522
+Answer: Available payment methods are displayed during checkout and may vary by location.
+----------------------------------------------------------------------
+Rank: 3
+FAQ: How can I request a refund?
+Category: Refunds
+Similarity: 0.6918
+Answer: Open the order details and select the refund option if the order is eligible for a refund.
+----------------------------------------------------------------------
+

@@ -1,0 +1,32 @@
+======================================================================
+User question: How do I cancel my order?
+Matched FAQ: How can I cancel my order?
+Category: Orders
+Similarity score: 0.9940
+Retrieved FAQs: 3
+Answer: You can cancel your order before it is dispatched from the order section.
+
+======================================================================
+User question: Where can I track my delivery?
+Matched FAQ: How can I track my order?
+Category: Orders
+Similarity score: 0.8958
+Retrieved FAQs: 3
+Answer: Open My Orders and select the order to view its current delivery status.
+
+======================================================================
+User question: I need to get my money back
+Matched FAQ: How can I request a refund?
+Category: Refunds
+Similarity score: 0.8403
+Retrieved FAQs: 3
+Answer: Open the order details and select the refund option if the order is eligible for a refund.
+
+======================================================================
+User question: My payment did not work
+Matched FAQ: What should I do if my payment failed?
+Category: Payments
+Similarity score: 0.8808
+Retrieved FAQs: 3
+Answer: Check your payment details and try again. If the amount was deducted, contact support with the transaction details.
+

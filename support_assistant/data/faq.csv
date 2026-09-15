@@ -1,0 +1,11 @@
+id,question,answer,category
+1,"How can I cancel my order?","You can cancel your order before it is dispatched from the order section.","Orders"
+2,"How can I track my order?","Open My Orders and select the order to view its current delivery status.","Orders"
+3,"What if my order is delayed?","If your order is delayed, please check the latest tracking status and contact support if the delay continues.","Delivery"
+4,"How can I request a refund?","Open the order details and select the refund option if the order is eligible for a refund.","Refunds"
+5,"How long does a refund take?","Eligible refunds are normally processed according to the payment method and may take a few business days.","Refunds"
+6,"What should I do if I receive a damaged product?","Report the damaged product through the order support option and provide the requested details.","Products"
+7,"Can I change my delivery address?","Address changes may be possible before dispatch. Open the order details and check the available options.","Delivery"
+8,"How can I contact customer support?","You can contact customer support through the support section of the application.","Support"
+9,"What payment methods are supported?","Available payment methods are displayed during checkout and may vary by location.","Payments"
+10,"What should I do if my payment failed?","Check your payment details and try again. If the amount was deducted, contact support with the transaction details.","Payments"
