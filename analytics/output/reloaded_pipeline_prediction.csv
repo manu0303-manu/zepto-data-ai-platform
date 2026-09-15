@@ -1,0 +1,2 @@
+pclass,sex,age,sibsp,parch,fare,embarked,prediction,prediction_label,probability_not_survived,probability_survived
+1,female,30,0,0,80.0,C,1,SURVIVED,0.015574181838536564,0.9844258181614635

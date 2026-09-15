@@ -1,0 +1,35 @@
+Fare Regression Summary
+=======================
+
+Model:
+Linear Regression
+
+Target:
+fare
+
+Features:
+pclass, sex, age, sibsp, parch, embarked
+
+Training rows:
+712
+
+Testing rows:
+179
+
+MAE:
+20.8094
+
+RMSE:
+30.4731
+
+R²:
+0.3999
+
+Adjusted R²:
+0.3679
+
+Number of predictors after preprocessing:
+9
+
+Heteroscedasticity conclusion:
+The residual plot suggests possible heteroscedasticity because residual spread is substantially larger at higher predicted fares.

@@ -1,0 +1,2 @@
+Model Type,Model,Accuracy,Precision,Recall,F1,ROC_AUC,MAE,RMSE,R2,Adjusted_R2
+Regression,Linear Regression,,,,,,20.8094,30.4731,0.3999,0.3679

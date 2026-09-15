@@ -1,0 +1,13 @@
+CLASSIFICATION TRAIN/TEST SPLIT
+============================================================
+
+Original dataset rows: 891
+Training rows: 712
+Testing rows: 179
+
+Split method: train_test_split
+Test size: 20%
+Random state: 42
+Stratification: stratify=y
+
+Preprocessing is fitted inside the Pipeline using training data only.

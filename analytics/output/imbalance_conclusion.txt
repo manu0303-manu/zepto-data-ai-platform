@@ -1,0 +1,15 @@
+Class imbalance was evaluated using three approaches:
+
+1. Baseline Logistic Regression
+2. Logistic Regression with class_weight="balanced"
+3. Logistic Regression with SMOTE applied only to the training data
+
+The best method based on F1-score was SMOTE,
+with an F1-score of 0.7606.
+
+SMOTE was applied only after the training/test split and
+only to the training portion through the pipeline, preventing
+test-data leakage.
+
+The final method should be selected by considering the trade-off
+between precision, recall and F1-score rather than accuracy alone.

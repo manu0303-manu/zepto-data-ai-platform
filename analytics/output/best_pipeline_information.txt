@@ -1,0 +1,33 @@
+Best Classification Pipeline
+==================================================
+
+Model: Random Forest Classifier
+Source: Random Forest GridSearchCV
+
+Best Parameters:
+n_estimators: 100
+max_depth: 5
+max_features: sqrt
+random_state: 42
+oob_score: True
+bootstrap: True
+
+Training rows: 712
+Testing rows: 179
+
+Pipeline components:
+1. Numeric median imputation
+2. StandardScaler
+3. Categorical most-frequent imputation
+4. OneHotEncoder
+5. Random Forest Classifier
+
+Reload verification:
+Pipeline saved using joblib.dump()
+Pipeline reloaded using joblib.load()
+Raw passenger input successfully processed
+Prediction successfully generated
+
+Prediction: SURVIVED
+Probability not survived: 0.0156
+Probability survived: 0.9844

@@ -1,0 +1,21 @@
+Final Model Recommendation
+==========================
+
+For the Titanic survival classification task, the recommended
+classification model based on the highest F1-score is
+Logistic Regression + SMOTE, with an F1-score of 0.7606 and
+accuracy of 0.8101.
+
+The comparison shows that handling class imbalance can improve
+the balance between precision and recall, so F1-score is more
+informative than accuracy alone when selecting the classification
+approach.
+
+For fare prediction, Linear Regression achieved an R² of
+0.3999 and an Adjusted R² of
+0.3679. The regression model should be
+evaluated separately from classification because its metrics
+measure continuous-value prediction rather than class prediction.
+
+Overall, the classification and regression models should be
+selected according to their respective task-specific metrics.

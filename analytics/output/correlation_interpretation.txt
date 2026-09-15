@@ -1,0 +1,10 @@
+TOP 2 ABSOLUTE OFF-DIAGONAL CORRELATIONS
+============================================================
+
+1. pclass and fare: -0.5482
+Interpretation: moderate negative correlation.
+
+2. sibsp and parch: 0.4145
+Interpretation: moderate positive correlation.
+
+Note: Correlation measures association and does not establish causation.

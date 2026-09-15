@@ -1,0 +1,20 @@
+MULTIVARIATE ANALYSIS INTERPRETATIONS
+======================================================================
+
+CHART 1 — SEX + PCLASS + SURVIVAL
+--------------------------------------------------
+Survival rates vary substantially by both sex and passenger class. Female passengers generally show higher survival rates than male passengers across passenger classes. The combination of sex and class provides useful information for understanding survival differences.
+
+CHART 2 — PCLASS + AGE + SURVIVAL
+--------------------------------------------------
+The scatter plot shows how passenger age is distributed across the three passenger classes while separating survivors from non-survivors. Younger passengers appear across all classes, while higher classes contain a broader range of ages. Survival patterns can be examined together with age and passenger class.
+
+CHART 3 — SEX + FARE
+--------------------------------------------------
+Fare distributions differ between female and male passengers. The boxplot shows the median and spread of fares for each sex and highlights potential high-fare observations. This indicates that fare levels were not distributed equally between the two groups.
+
+CHART 4 — PCLASS + FARE + SURVIVAL
+--------------------------------------------------
+Passenger class and fare are related because higher classes generally had higher ticket prices. The chart separates survivors from non-survivors, allowing survival patterns to be examined together with class and fare. Higher fares and higher passenger classes show different survival patterns in the dataset.
+
+Note: These visualizations show associations in the Titanic dataset and do not establish causal relationships.
