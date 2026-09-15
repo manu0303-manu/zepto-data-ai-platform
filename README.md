@@ -1,20 +1,4 @@
-# Zepto Data & AI Platform
-
-A complete Data Engineering, Analytics, Machine Learning, and GenAI Support Assistant capstone project.
-
-## Project Overview
-
-The Zepto Data & AI Platform is organized as a single repository containing three modules:
-
-1. Data Pipeline
-2. Analytics Pipeline
-3. Support Assistant
-
-The project demonstrates an end-to-end workflow covering web scraping, data cleaning, relational database design, SQL analysis, exploratory data analysis, machine learning, model evaluation, regression, pipeline persistence, and GenAI support-assistant development.
-
----
-
-# Project Structure
+## Project Structure
 
 ```text
 zepto-data-ai-platform/
@@ -66,4 +50,18 @@ zepto-data-ai-platform/
 │   └── save_reload_pipeline.py
 │
 └── support_assistant/
-    └── Support Assistant implementation
+    ├── README.md
+    ├── api.py
+    ├── faq_matcher.py
+    ├── mock_llm.py
+    ├── rag_retriever.py
+    ├── support_graph.py
+    │
+    ├── data/
+    │   └── faq.csv
+    │
+    └── output/
+        ├── complete_support_results.txt
+        ├── langgraph_rag_results.txt
+        └── rag_retrieval_results.txt
+```
